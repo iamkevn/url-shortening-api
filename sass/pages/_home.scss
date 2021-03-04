@@ -1,0 +1,15 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, min-content);
+}
+
+.section-about {
+  grid-column: 2 / 12;
+  grid-row: 3 / 4;
+}
+
+.section-cta {
+  grid-column: 2 / 12;
+  grid-row: 4 / 5;
+}
