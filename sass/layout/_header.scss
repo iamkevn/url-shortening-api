@@ -1,7 +1,5 @@
 .header {
-  grid-column: 2 / 12;
-  grid-row: 2 / 3;
-
+  grid-area: header;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(auto, 1fr);
