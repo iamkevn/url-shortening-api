@@ -1,0 +1,19 @@
+.btn {
+  color: #fff;
+  background-color: var(--color-primary-light);
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.2rem 3.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    opacity: 0.5;
+  }
+
+  &--small {
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+  }
+}

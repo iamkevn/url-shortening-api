@@ -1,12 +1,14 @@
-.home-grid {
+.home {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, min-content);
+  grid-template-rows: 10rem 75vh repeat(3, min-content);
 }
 
 .section-about {
   grid-column: 2 / 12;
   grid-row: 3 / 4;
+
+  background-color: var(--color-gray-light-3);
 }
 
 .section-cta {

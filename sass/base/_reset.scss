@@ -14,6 +14,15 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
   font-weight: 500;
-  color: var(--gray);
+  color: var(--color-gray-light-1);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,4 +1,38 @@
 .nav {
   grid-column: 2 / 12;
   grid-row: 1 / 2;
+  align-self: center;
+  display: flex;
+
+  .logo {
+    height: 3.3rem;
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+
+    &:nth-child(3) {
+      margin-right: auto;
+    }
+  }
+
+  &__link {
+    color: var(--color-gray-light-2);
+    transition: all 0.2s ease-in-out;
+
+    &:hover,
+    &:active {
+      color: var(--color-gray-dark-1);
+    }
+  }
 }
