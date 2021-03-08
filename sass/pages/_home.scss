@@ -1,13 +1,13 @@
 .home {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 10vw 1fr 10vw;
   grid-template-rows: 10rem 60rem repeat(3, min-content);
   grid-template-areas:
-    'nav'
-    'header'
-    'about'
-    'cta'
-    'footer';
+    '. nav .'
+    '. header .'
+    'about about about'
+    'cta cta cta'
+    'footer footer footer';
 }
 
 .section-about {
