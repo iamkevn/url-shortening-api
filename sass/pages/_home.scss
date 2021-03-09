@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 10vw 1fr 10vw;
-  grid-template-rows: 10rem 60rem 90rem 20rem 1fr;
+  grid-template-rows: 10rem 60rem 90rem 25rem 1fr;
   grid-template-areas:
     '. nav .'
     '. header .'
@@ -48,4 +48,10 @@
 
 .section-boost {
   grid-area: boost;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-dark);
+  background-image: url('../images/bg-boost-desktop.svg');
 }

@@ -165,7 +165,7 @@ input {
 .home {
   display: grid;
   grid-template-columns: 10vw 1fr 10vw;
-  grid-template-rows: 10rem 60rem 90rem 20rem 1fr;
+  grid-template-rows: 10rem 60rem 90rem 25rem 1fr;
   grid-template-areas: '. nav .' '. header .' 'features features features' 'boost boost boost' 'footer footer footer'; }
 
 .section-features {
@@ -195,7 +195,13 @@ input {
       top: 10rem; }
 
 .section-boost {
-  grid-area: boost; }
+  grid-area: boost;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-dark);
+  background-image: url("../images/bg-boost-desktop.svg"); }
 
 .u-mx-auto {
   margin: 0 auto !important; }
