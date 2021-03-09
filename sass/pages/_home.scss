@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 10vw 1fr 10vw;
-  grid-template-rows: 10rem 60rem 90rem repeat(2, min-content);
+  grid-template-rows: 10rem 60rem 90rem 20rem 1fr;
   grid-template-areas:
     '. nav .'
     '. header .'
