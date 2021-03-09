@@ -1,0 +1,19 @@
+.feature {
+  background-color: #fefefe;
+  width: 30%;
+  padding: 4rem;
+  padding-top: 6rem;
+  border-radius: 1rem;
+  position: relative;
+
+  .icon-container {
+    display: inline-block;
+    background-color: var(--color-primary-dark);
+    width: 9rem;
+    height: 9rem;
+    padding: 2.5rem;
+    border-radius: 5rem;
+    position: absolute;
+    top: -4.5rem;
+  }
+}

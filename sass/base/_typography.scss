@@ -6,13 +6,15 @@
 .heading-2 {
   font-size: 4rem;
 
-  &--dark {
-    color: var(--color-gray-dark-1);
-  }
   &--light {
     color: #fefefe;
   }
+
+  &--dark {
+    color: var(--color-gray-dark-1);
+  }
 }
-.paragraph {
-  line-height: 3.2rem;
+
+.heading-3 {
+  color: var(--color-gray-dark-1);
 }
