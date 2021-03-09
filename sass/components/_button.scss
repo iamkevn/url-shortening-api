@@ -1,20 +1,16 @@
 .btn {
-  color: #fff;
+  color: #fefefe;
   background-color: var(--color-primary-light-1);
   font-size: 1.8rem;
   font-weight: 700;
-  padding: 1.2rem 3rem;
+  padding: 1.4rem 4rem;
   border-radius: 5rem;
   cursor: pointer;
-  height: 4.5rem;
+  height: 5rem;
 
   &:hover,
   &:active {
     background-color: var(--color-primary-light-2);
-  }
-
-  &-secondary {
-    border-radius: 1rem;
   }
 
   &--small {

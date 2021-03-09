@@ -12,8 +12,14 @@
 
   &__input {
     width: 55vw;
-    height: 4.5rem;
+    height: 5rem;
     margin-right: 2rem;
     border-radius: 1rem;
+    padding: 0 3rem;
+
+    &::placeholder {
+      color: var(--color-gray-light-2);
+      font-size: 1.8rem;
+    }
   }
 }
