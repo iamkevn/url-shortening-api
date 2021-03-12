@@ -111,7 +111,7 @@ input {
 .footer {
   grid-area: footer;
   display: grid;
-  grid-template-columns: 10vw 25vw 1fr 10vw;
+  grid-template-columns: 10vw 30vw 1fr 10vw;
   background-color: var(--color-gray-dark-2);
   padding-top: 5rem; }
   .footer .heading-2 {
@@ -135,9 +135,13 @@ input {
   .footer .social-media {
     display: flex; }
     .footer .social-media__item {
-      padding: 0 1rem; }
-    .footer .social-media__link:hover, .footer .social-media__link:active {
-      color: var(--color-primary-light-1); }
+      padding-left: 2rem; }
+    .footer .social-media__icon {
+      color: white;
+      font-size: 2.5rem; }
+      .footer .social-media__icon:hover, .footer .social-media__icon:active {
+        color: var(--color-primary-light-1);
+        transition: all 0.2s ease-in-out; }
 
 .header {
   grid-area: header;
